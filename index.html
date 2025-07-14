@@ -3,20 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kontakt – Chor Frohsinn </title>
+  <title>Kontakt – Chor Frohsinn</title>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-    background="music_notes.jpg"
       font-family: 'Fredoka', sans-serif;
-      background: linear-gradient(135deg, #ffffff, #ffffff);
+      background: url('https://github.com/StingPax/frohsinn-website-card/blob/main/music_notes.jpg') no-repeat center center fixed;
+      background-size: cover;
       margin: 0;
       padding: 2rem 1rem;
       display: flex;
       flex-direction: column;
       align-items: center;
-      color: #333;
+      color: #fff;
       animation: fadeIn 1s ease-in;
+      backdrop-filter: brightness(0.4);
     }
 
     @keyframes fadeIn {
@@ -26,14 +27,15 @@
 
     h1 {
       font-size: 2rem;
-      color: #20b814;
+      color: #ffdd57;
       margin-bottom: 0.5rem;
       text-align: center;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
     }
 
     h2 {
       font-size: 1.2rem;
-      color: #495057;
+      color: #f1f1f1;
       margin-bottom: 1.5rem;
       text-align: center;
     }
@@ -53,8 +55,9 @@
       width: 100%;
       max-width: 340px;
       font-size: 1.1rem;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
       transition: transform 0.2s ease;
+      text-align: center;
     }
 
     .button:hover {
@@ -65,12 +68,12 @@
       margin-top: 2.5rem;
       text-align: center;
       font-size: 0.95rem;
-      color: #555;
+      color: #eee;
     }
 
     .footer-highlight {
       font-weight: bold;
-      color: #20b814;
+      color: #ffdd57;
     }
 
     .emoji {
@@ -94,9 +97,9 @@
   <a class="button" href="https://www.frohsinnharrislee.de" target="_blank">💻 Webseite besuchen</a>
 
   <footer>
-    <h3><p>Gemischter <span class="footer-highlight">Chor Frohsinn </span>von 1905 Harrislee e.V.<br></h3>
-    📅 Proben (außer in den Ferien): <br>Dienstags, 19:45 – 21:30 Uhr<br>
-    📍 Teppichtrakt, Zentralschule Harrislee</p>
+    <h3>Gemischter <span class="footer-highlight">Chor Frohsinn</span> von 1905 Harrislee e.V.</h3>
+    <p>📅 Proben (außer in den Ferien): <br>Dienstags, 19:45 – 21:30 Uhr</p>
+    <p>📍 Teppichtrakt, Zentralschule Harrislee</p>
   </footer>
 
 </body>
